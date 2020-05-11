@@ -1,0 +1,18 @@
+#root{
+/*bg image only works if the image is NOT in a separate folder in the same package as the css file and the only the name of the file
+excluding the package name*/
+ -fx-background-image: url("bitchpls.png");
+ -fx-background-size: cover, auto;
+}
+
+.button{
+-fx-background-color: skyblue;
+}
+
+.button:hover{
+-fx-background-color: red;
+}
+
+#titel{
+-fx-font-style: italic;
+}
